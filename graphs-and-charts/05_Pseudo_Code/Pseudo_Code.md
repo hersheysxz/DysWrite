@@ -2,7 +2,7 @@
 
 The pseudocode below provides a step-by-step algorithmic description of the Dyslexia Risk Assessment process, serving as a bridge between the Structured English narrative and the actual Python implementation of the model.
 
-## Pseudocode — AssessDyslexiaRisk() Function
+## Pseudocode  AssessDyslexiaRisk() Function
 
 ```
 FUNCTION AssessDyslexiaRisk(image):

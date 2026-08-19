@@ -2,7 +2,7 @@
 
 Structured English expresses the logic of the DysWrite Dyslexia Risk Assessment process using plain English combined with simple programming constructs (IF-THEN-ELSE, DO-WHILE), making the process logic understandable to both technical and non-technical stakeholders (e.g., the thesis panel, adviser, and partner school).
 
-## Structured English — Assess Dyslexia Risk Module
+## Structured English  Assess Dyslexia Risk Module
 
 ```
 MODULE: ASSESS_DYSLEXIA_RISK

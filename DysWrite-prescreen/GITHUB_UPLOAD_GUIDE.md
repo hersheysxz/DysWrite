@@ -91,10 +91,10 @@ git push -u origin main
 ## Step 4: Verify Upload
 
 Go to your GitHub repository URL in your browser. You should see:
-- ✓ All your `.py` files
-- ✓ `README.md`, `DEPLOYMENT.md`, `CONTRIBUTING.md`, `QUALITY_AUDIT.md`
-- ✓ `requirements.txt`
-- ✓ Folders: `src/`, `tests/`, `sample_data/`, `checkpoints/`, `outputs/`, `logs/`
+-  All your `.py` files
+-  `README.md`, `DEPLOYMENT.md`, `CONTRIBUTING.md`, `QUALITY_AUDIT.md`
+-  `requirements.txt`
+-  Folders: `src/`, `tests/`, `sample_data/`, `checkpoints/`, `outputs/`, `logs/`
 
 ---
 
@@ -142,7 +142,7 @@ pip install -r requirements.txt
 python -m unittest discover -s tests -v
 ```
 
-All tests should pass ✓
+All tests should pass 
 
 ### 4. Ready to Code!
 
@@ -239,11 +239,11 @@ dyswrite-prescreen/
 
 ## Quick Links for Your Team
 
-- 📖 **Project Overview:** [README.md](README.md)
-- 🚀 **How to Run:** [DEPLOYMENT.md](DEPLOYMENT.md)
-- 💻 **Code Contribution Guide:** [CONTRIBUTING.md](CONTRIBUTING.md)
-- ✅ **Quality Audit Report:** [QUALITY_AUDIT.md](QUALITY_AUDIT.md)
-- 🔗 **Your GitHub Repo:** `https://github.com/YOUR_ORG/dyswrite-prescreen` ← Replace with your actual URL
+- **Project Overview:** [README.md](README.md)
+- **How to Run:** [DEPLOYMENT.md](DEPLOYMENT.md)
+- **Code Contribution Guide:** [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Quality Audit Report:** [QUALITY_AUDIT.md](QUALITY_AUDIT.md)
+- **Your GitHub Repo:** `https://github.com/YOUR_ORG/dyswrite-prescreen` ← Replace with your actual URL
 
 ---
 
@@ -256,4 +256,4 @@ dyswrite-prescreen/
 
 ---
 
-**You're all set! 🎉 Happy collaborating!**
+**You're all set!  Happy collaborating!**

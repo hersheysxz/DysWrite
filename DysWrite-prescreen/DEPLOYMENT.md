@@ -80,7 +80,7 @@ pip install -r requirements.txt
 ### 4. Verify Installation
 
 ```bash
-python -c "from src import config, exceptions, utils, dataset, model; print('✓ Installation successful')"
+python -c "from src import config, exceptions, utils, dataset, model; print(' Installation successful')"
 ```
 
 ### 5. Run the Unit Tests

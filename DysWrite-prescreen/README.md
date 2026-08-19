@@ -11,16 +11,16 @@ report.
 
 ---
 
-## 📚 Documentation
+## Documentation
 
-- **🚀 [GITHUB_UPLOAD_GUIDE.md](GITHUB_UPLOAD_GUIDE.md)** — How to upload this project to GitHub and invite team members
-- **💻 [DEPLOYMENT.md](DEPLOYMENT.md)** — How to install and run the project (for all team members)
-- **✅ [QUALITY_AUDIT.md](QUALITY_AUDIT.md)** — **WHERE THE CODE IMPLEMENTS**:
+- **[GITHUB_UPLOAD_GUIDE.md](GITHUB_UPLOAD_GUIDE.md)**  How to upload this project to GitHub and invite team members
+- **[DEPLOYMENT.md](DEPLOYMENT.md)**  How to install and run the project (for all team members)
+- **[QUALITY_AUDIT.md](QUALITY_AUDIT.md)**  **WHERE THE CODE IMPLEMENTS**:
   - Professional Coding Standards and Practices
   - 15 Principles of Quality Software
   - Defensive Programming
   - Error Exception Handling
-- **🤝 [CONTRIBUTING.md](CONTRIBUTING.md)** — Code style guide and Git workflow for team members
+- **[CONTRIBUTING.md](CONTRIBUTING.md)**  Code style guide and Git workflow for team members
 
 ---
 
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 python -m unittest discover -s tests
 ```
 
-Requires Python 3.9+. A GPU is optional — the code automatically falls
+Requires Python 3.9+. A GPU is optional  the code automatically falls
 back to CPU (see `src/train.py` / `src/infer.py`, `torch.cuda.is_available()`).
 
 See [DEPLOYMENT.md](DEPLOYMENT.md#troubleshooting) for common issues and solutions.
@@ -89,7 +89,7 @@ sample_data/
 
 If your folder names don't match `CLASS_NAMES` exactly, `dataset.py` will
 raise a `ClassMismatchError` at startup rather than training silently
-against the wrong labels — this is intentional (see Defensive Programming
+against the wrong labels  this is intentional (see Defensive Programming
 section of the audit report).
 
 ## 4. Training
@@ -122,7 +122,7 @@ saves a side-by-side image (original + Grad-CAM heatmap overlay) to
 python -m unittest discover -s tests
 ```
 
-All tests should pass without needing a trained checkpoint or GPU — they
+All tests should pass without needing a trained checkpoint or GPU  they
 use small synthetic images and a freshly-initialized model.
 
 ## 7. Code Quality & Development
@@ -164,12 +164,12 @@ All team members should read [CONTRIBUTING.md](CONTRIBUTING.md) for:
 ## 8. Notes for Group Members
 
 - All configuration values (paths, class names, image size, hyperparameters)
-  live in `src/config.py` — change values there, not inside individual
+  live in `src/config.py`  change values there, not inside individual
   scripts.
 - If you hit a `ModelCheckpointError`, `DatasetError`, or
   `ClassMismatchError`, the printed message explains exactly what's wrong
-  and where — see `src/exceptions.py`.
+  and where  see `src/exceptions.py`.
 - Logs are printed to the console via `src/utils.get_logger()`; no need to
-  add `print()` statements when debugging — use `logger.info(...)` /
+  add `print()` statements when debugging  use `logger.info(...)` /
   `logger.warning(...)` instead so output stays consistent.
 - **[Read CONTRIBUTING.md for code contribution guidelines](CONTRIBUTING.md)**

@@ -57,34 +57,34 @@ def load_checkpoint(model: nn.Module, path: str, device: torch.device) -> nn.Mod
 ### 5. **No Hardcoded Magic Numbers**
 All constants go into `src/config.py`:
 ```python
-# ✓ CORRECT
+#  CORRECT
 from src import config
 batch_size = config.BATCH_SIZE
 
-# ✗ WRONG
+#  WRONG
 batch_size = 16  # hardcoded!
 ```
 
 ### 6. **Use Logging, Not Print**
 ```python
-# ✓ CORRECT
+#  CORRECT
 from src.utils import get_logger
 logger = get_logger(__name__)
 logger.info("Training epoch %d", epoch)
 
-# ✗ WRONG
+#  WRONG
 print(f"Training epoch {epoch}")
 ```
 
 ### 7. **Error Handling**
 Raise custom exceptions instead of generic ones:
 ```python
-# ✓ CORRECT
+#  CORRECT
 from src.exceptions import DatasetError
 if not folder.exists():
     raise DatasetError(f"Dataset folder not found: {folder}")
 
-# ✗ WRONG
+#  WRONG
 if not folder.exists():
     raise Exception("Dataset folder not found")
 ```
@@ -144,9 +144,9 @@ git checkout -b feature/descriptive-name
 ```
 
 Use descriptive names:
-- ✓ `feature/add-data-augmentation`
-- ✓ `fix/class-mismatch-detection`
-- ✗ `feature/fix` (too vague)
+-  `feature/add-data-augmentation`
+-  `fix/class-mismatch-detection`
+-  `feature/fix` (too vague)
 
 ### 2. Make Changes and Commit
 ```bash
@@ -160,10 +160,10 @@ git commit -m "Add descriptive message"
 - Keep messages clear and concise
 
 Examples:
-- ✓ `Add data augmentation transforms to improve model robustness`
-- ✓ `Fix: ClassMismatchError should trigger on import, not during training`
-- ✗ `update stuff` (vague)
-- ✗ `asdf` (meaningless)
+-  `Add data augmentation transforms to improve model robustness`
+-  `Fix: ClassMismatchError should trigger on import, not during training`
+-  `update stuff` (vague)
+-  `asdf` (meaningless)
 
 ### 3. Push to GitHub
 ```bash
@@ -269,4 +269,4 @@ If you find a bug or have a feature request:
 
 ---
 
-**Happy coding! 🚀**
+**Happy coding! **

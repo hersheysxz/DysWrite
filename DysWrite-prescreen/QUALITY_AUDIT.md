@@ -613,13 +613,13 @@ def test_corrupted_image_yields_sentinel_label(self):
 
 | Aspect | Coverage | Evidence |
 |--------|----------|----------|
-| **Professional Coding Standards** | ✓ Excellent | PEP 8/257/484 compliance; module headers; centralized config |
-| **Quality Software Principles** | ✓ Excellent | 15/15 principles demonstrated (correctness, robustness, reliability, etc.) |
-| **Defensive Programming** | ✓ Excellent | Early validation, fail-fast, exception normalization, corrupted data handling |
-| **Error Exception Handling** | ✓ Excellent | Custom exception hierarchy; comprehensive try/except blocks; test coverage for error paths |
-| **Test Coverage** | ✓ Good | Unit tests for both success and error cases; no external dependencies in tests |
-| **Documentation** | ✓ Excellent | Module docstrings, inline comments, Google-style function docstrings |
-| **Code Organization** | ✓ Excellent | Clear separation of concerns; single responsibility per module |
+| **Professional Coding Standards** |  Excellent | PEP 8/257/484 compliance; module headers; centralized config |
+| **Quality Software Principles** |  Excellent | 15/15 principles demonstrated (correctness, robustness, reliability, etc.) |
+| **Defensive Programming** |  Excellent | Early validation, fail-fast, exception normalization, corrupted data handling |
+| **Error Exception Handling** |  Excellent | Custom exception hierarchy; comprehensive try/except blocks; test coverage for error paths |
+| **Test Coverage** |  Good | Unit tests for both success and error cases; no external dependencies in tests |
+| **Documentation** |  Excellent | Module docstrings, inline comments, Google-style function docstrings |
+| **Code Organization** |  Excellent | Clear separation of concerns; single responsibility per module |
 
 ---
 
