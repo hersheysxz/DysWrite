@@ -1,0 +1,74 @@
+<svg width="1720" height="640" viewBox="0 0 1720 640" xmlns="http://www.w3.org/2000/svg">
+<rect width="1720" height="640" fill="#FFFFFF"/>
+<text x="860.0" y="28" text-anchor="middle" font-size="18" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">DysWrite HIPO (Hierarchy Plus Input-Process-Output) Diagram</text>
+<rect x="730.0" y="55" width="260" height="60" rx="4" fill="#1B5E8C" stroke="#0B2E4A" stroke-width="1.5"/>
+<text x="860.0" y="80.5" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">DYSWRITE SYSTEM</text>
+<text x="860.0" y="99.5" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">Mobile App for Early Dyslexia Detection</text>
+<line x1="860.0" y1="115" x2="860.0" y2="115" stroke="#555555" stroke-width="1.2"/>
+<line x1="200.0" y1="115" x2="1520.0" y2="115" stroke="#555555" stroke-width="1.2"/>
+<line x1="200.0" y1="115" x2="200.0" y2="150" stroke="#555555" stroke-width="1.2"/>
+<rect x="50.0" y="150" width="300" height="70" rx="4" fill="#2E7FB8" stroke="#0B2E4A" stroke-width="1.5"/>
+<text x="200.0" y="179.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">1.0</text>
+<text x="200.0" y="200.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">Account Management</text>
+<line x1="200.0" y1="220" x2="200.0" y2="250" stroke="#555555" stroke-width="1.2"/>
+<rect x="50.0" y="250" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="200.0" y="283.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">1.1 Register Account</text>
+<line x1="200.0" y1="306" x2="200.0" y2="324" stroke="#555555" stroke-width="1.2"/>
+<rect x="50.0" y="324" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="200.0" y="357.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">1.2 Login</text>
+<line x1="200.0" y1="380" x2="200.0" y2="398" stroke="#555555" stroke-width="1.2"/>
+<rect x="50.0" y="398" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="200.0" y="431.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">1.3 Manage Profile</text>
+<line x1="530.0" y1="115" x2="530.0" y2="150" stroke="#555555" stroke-width="1.2"/>
+<rect x="380.0" y="150" width="300" height="70" rx="4" fill="#2E7FB8" stroke="#0B2E4A" stroke-width="1.5"/>
+<text x="530.0" y="179.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">2.0</text>
+<text x="530.0" y="200.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">Child Profile Management</text>
+<line x1="530.0" y1="220" x2="530.0" y2="250" stroke="#555555" stroke-width="1.2"/>
+<rect x="380.0" y="250" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="530.0" y="283.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">2.1 Add Child Profile</text>
+<line x1="530.0" y1="306" x2="530.0" y2="324" stroke="#555555" stroke-width="1.2"/>
+<rect x="380.0" y="324" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="530.0" y="357.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">2.2 Update Child Profile</text>
+<line x1="530.0" y1="380" x2="530.0" y2="398" stroke="#555555" stroke-width="1.2"/>
+<rect x="380.0" y="398" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="530.0" y="431.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">2.3 View Child Profile</text>
+<line x1="860.0" y1="115" x2="860.0" y2="150" stroke="#555555" stroke-width="1.2"/>
+<rect x="710.0" y="150" width="300" height="70" rx="4" fill="#2E7FB8" stroke="#0B2E4A" stroke-width="1.5"/>
+<text x="860.0" y="179.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">3.0</text>
+<text x="860.0" y="200.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">Handwriting Sample Management</text>
+<line x1="860.0" y1="220" x2="860.0" y2="250" stroke="#555555" stroke-width="1.2"/>
+<rect x="710.0" y="250" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="860.0" y="283.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">3.1 Upload Handwriting Sample</text>
+<line x1="860.0" y1="306" x2="860.0" y2="324" stroke="#555555" stroke-width="1.2"/>
+<rect x="710.0" y="324" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="860.0" y="357.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">3.2 Preprocess Image</text>
+<line x1="860.0" y1="380" x2="860.0" y2="398" stroke="#555555" stroke-width="1.2"/>
+<rect x="710.0" y="398" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="860.0" y="431.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">3.3 Store Sample</text>
+<line x1="1190.0" y1="115" x2="1190.0" y2="150" stroke="#555555" stroke-width="1.2"/>
+<rect x="1040.0" y="150" width="300" height="70" rx="4" fill="#2E7FB8" stroke="#0B2E4A" stroke-width="1.5"/>
+<text x="1190.0" y="179.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">4.0</text>
+<text x="1190.0" y="200.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">Dyslexia Risk Assessment</text>
+<line x1="1190.0" y1="220" x2="1190.0" y2="250" stroke="#555555" stroke-width="1.2"/>
+<rect x="1040.0" y="250" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="1190.0" y="283.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">4.1 Extract Features (MobileNetV3)</text>
+<line x1="1190.0" y1="306" x2="1190.0" y2="324" stroke="#555555" stroke-width="1.2"/>
+<rect x="1040.0" y="324" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="1190.0" y="357.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">4.2 Classify Risk (CNN + Transformer)</text>
+<line x1="1190.0" y1="380" x2="1190.0" y2="398" stroke="#555555" stroke-width="1.2"/>
+<rect x="1040.0" y="398" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="1190.0" y="431.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">4.3 Generate Grad-CAM Map</text>
+<line x1="1520.0" y1="115" x2="1520.0" y2="150" stroke="#555555" stroke-width="1.2"/>
+<rect x="1370.0" y="150" width="300" height="70" rx="4" fill="#2E7FB8" stroke="#0B2E4A" stroke-width="1.5"/>
+<text x="1520.0" y="179.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">5.0</text>
+<text x="1520.0" y="200.5" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">Report Management</text>
+<line x1="1520.0" y1="220" x2="1520.0" y2="250" stroke="#555555" stroke-width="1.2"/>
+<rect x="1370.0" y="250" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="1520.0" y="283.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">5.1 Generate Assessment Report</text>
+<line x1="1520.0" y1="306" x2="1520.0" y2="324" stroke="#555555" stroke-width="1.2"/>
+<rect x="1370.0" y="324" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="1520.0" y="357.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">5.2 View Report History</text>
+<line x1="1520.0" y1="380" x2="1520.0" y2="398" stroke="#555555" stroke-width="1.2"/>
+<rect x="1370.0" y="398" width="300" height="56" rx="4" fill="#E4EFFA" stroke="#5B8FB0" stroke-width="1.5"/>
+<text x="1520.0" y="431.0" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#0B2E4A">5.3 Export / Share Report</text>
+</svg>

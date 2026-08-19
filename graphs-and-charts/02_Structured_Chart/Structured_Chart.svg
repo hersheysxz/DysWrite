@@ -1,0 +1,270 @@
+<svg width="1950" height="1180" viewBox="0 0 1950 1180" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9Z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="circleHollow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6">
+      <circle cx="5" cy="5" r="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/>
+    </marker>
+    <marker id="circleFilled" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6">
+      <circle cx="5" cy="5" r="4" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1950" height="1180" fill="#ffffff"/>
+
+  <!-- ============================================================= -->
+  <!-- TOP CONTROL LAYER -->
+  <!-- ============================================================= -->
+  <text x="975" y="35" text-anchor="middle" font-size="15" font-weight="600" fill="#5F5E5A">Top Control Layer</text>
+
+  <rect x="835" y="55" width="280" height="80" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="975" y="90" text-anchor="middle" font-size="15" font-weight="700" fill="#26215C">Detect_Dyslexia_Risk</text>
+  <text x="975" y="112" text-anchor="middle" font-size="12" fill="#3C3489">Coordinates Subsystems</text>
+
+  <!-- bus from top box to the two UNCONDITIONAL subsystems -->
+  <path d="M975 135 L975 168 M235 168 L975 168 M235 168 L235 230 M975 168 L975 230"
+        fill="none" stroke="#4a4a47" stroke-width="1.8"/>
+
+  <!-- independent CONDITIONAL call line: Top Control -> Generate_Output_Report -->
+  <polygon points="1075,135 1090,152 1075,169 1060,152" fill="#FFF3D6" stroke="#B7791E" stroke-width="1.5"/>
+  <path d="M1075 169 L1075 190 L1690 190 L1690 230" fill="none" stroke="#4a4a47" stroke-width="1.8"/>
+
+  <!-- ===== Zone A couples (Top <-> Subsystems) ===== -->
+  <!-- Input Controller link -->
+  <line x1="210" y1="222" x2="210" y2="150" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="150" y="182" text-anchor="start" font-size="11" fill="#1a1a1a">Validated Sample</text>
+
+  <line x1="262" y1="150" x2="262" y2="222" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleFilled)" marker-end="url(#arrowHead)"/>
+  <text x="270" y="182" text-anchor="start" font-size="11" fill="#1a1a1a">Capture Trigger</text>
+
+  <!-- Central Transform link -->
+  <line x1="940" y1="150" x2="940" y2="222" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="930" y="182" text-anchor="end" font-size="11" fill="#1a1a1a">Validated Sample</text>
+
+  <line x1="1005" y1="222" x2="1005" y2="150" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="1013" y="182" text-anchor="start" font-size="11" fill="#1a1a1a">Risk Score + Explanation</text>
+
+  <!-- Output Controller link (conditional call, diamond up at Top Control box) -->
+  <line x1="1660" y1="195" x2="1660" y2="225" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="1648" y="213" text-anchor="end" font-size="11" fill="#1a1a1a">Risk Score + Explanation</text>
+
+  <line x1="1720" y1="225" x2="1720" y2="195" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleFilled)" marker-end="url(#arrowHead)"/>
+  <text x="1728" y="213" text-anchor="start" font-size="11" fill="#1a1a1a">Report Sent Flag</text>
+
+  <!-- ============================================================= -->
+  <!-- SUBSYSTEM LAYER -->
+  <!-- ============================================================= -->
+  <text x="40" y="272" font-size="14" font-weight="600" fill="#5F5E5A">Subsystem Layer</text>
+
+  <rect x="95" y="230" width="280" height="80" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="235" y="264" text-anchor="middle" font-size="14" font-weight="700" fill="#26215C">Manage_Input_Pipeline</text>
+  <text x="235" y="286" text-anchor="middle" font-size="11" fill="#3C3489">Captures &amp; Validates Data</text>
+
+  <rect x="800" y="230" width="280" height="80" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="940" y="257" text-anchor="middle" font-size="13.5" font-weight="700" fill="#26215C">Run_MobileNetV3_Inference</text>
+  <text x="940" y="277" text-anchor="middle" font-size="11" fill="#3C3489">Pre-trained Model (Transfer Learning)</text>
+  <text x="940" y="294" text-anchor="middle" font-size="11" fill="#3C3489">+ XAI Explanation</text>
+
+  <rect x="1550" y="230" width="280" height="80" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="1690" y="264" text-anchor="middle" font-size="14" font-weight="700" fill="#26215C">Generate_Output_Report</text>
+  <text x="1690" y="286" text-anchor="middle" font-size="11" fill="#3C3489">Handles Report Formatting</text>
+
+  <!-- Input Controller sub-tree -->
+  <path d="M235 310 L235 350 L135 350 L135 428 M235 350 L335 350 L335 428"
+        fill="none" stroke="#4a4a47" stroke-width="1.8"/>
+  <!-- Central Transform sub-tree (3 children now) -->
+  <path d="M940 310 L940 350 L785 350 L785 428 M940 350 L940 428 M940 350 L1095 350 L1095 428"
+        fill="none" stroke="#4a4a47" stroke-width="1.8"/>
+  <!-- Output Controller sub-tree -->
+  <path d="M1690 310 L1690 350 L1570 350 L1570 428 M1690 350 L1810 350 L1810 428"
+        fill="none" stroke="#4a4a47" stroke-width="1.8"/>
+
+  <!-- ===== Zone B couples ===== -->
+  <!-- Manage_Accounts link -->
+  <line x1="112" y1="422" x2="112" y2="357" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="30" y="393" text-anchor="start" font-size="10.5" fill="#1a1a1a">Login Credentials</text>
+
+  <line x1="160" y1="357" x2="160" y2="422" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleFilled)" marker-end="url(#arrowHead)"/>
+  <text x="168" y="393" text-anchor="start" font-size="10.5" fill="#1a1a1a">Verify Request</text>
+
+  <!-- Capture_Sample link -->
+  <line x1="310" y1="422" x2="310" y2="357" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="300" y="393" text-anchor="end" font-size="10.5" fill="#1a1a1a">Handwriting Sample</text>
+
+  <line x1="360" y1="357" x2="360" y2="422" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="368" y="393" text-anchor="start" font-size="10.5" fill="#1a1a1a">Capture Instructions</text>
+
+  <!-- Extract_Features link -->
+  <line x1="755" y1="422" x2="755" y2="357" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="690" y="393" text-anchor="start" font-size="10.5" fill="#1a1a1a">Feature Map</text>
+
+  <line x1="805" y1="357" x2="805" y2="422" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="813" y="357" text-anchor="start" font-size="10.5" fill="#1a1a1a">Preproc. Sample</text>
+
+  <!-- Classify_Dyslexia_Risk link -->
+  <line x1="925" y1="422" x2="925" y2="357" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="915" y="415" text-anchor="end" font-size="10.5" fill="#1a1a1a">Risk Score</text>
+
+  <line x1="955" y1="357" x2="955" y2="422" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="963" y="415" text-anchor="start" font-size="10.5" fill="#1a1a1a">Feature Map</text>
+
+  <!-- Generate_XAI_Explanation link (new) -->
+  <line x1="1075" y1="422" x2="1075" y2="357" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="1065" y="415" text-anchor="end" font-size="10.5" fill="#1a1a1a">Explanation Map</text>
+
+  <line x1="1120" y1="357" x2="1120" y2="422" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="1128" y="415" text-anchor="start" font-size="10.5" fill="#1a1a1a">Feature Map + Predicted Class</text>
+
+  <!-- Compile_Detection_Result link -->
+  <line x1="1550" y1="422" x2="1550" y2="357" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="1470" y="393" text-anchor="start" font-size="10.5" fill="#1a1a1a">Formatted Report</text>
+
+  <line x1="1600" y1="357" x2="1600" y2="422" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="1608" y="415" text-anchor="start" font-size="10.5" fill="#1a1a1a">Risk Score + Explanation</text>
+
+  <!-- Store_Report link -->
+  <line x1="1785" y1="357" x2="1785" y2="422" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="1715" y="415" text-anchor="start" font-size="10.5" fill="#1a1a1a">Formatted Report</text>
+
+  <!-- ============================================================= -->
+  <!-- LEAF / UTILITY LAYER -->
+  <!-- ============================================================= -->
+  <text x="40" y="417" font-size="14" font-weight="600" fill="#5F5E5A">Leaf / Utility Layer</text>
+
+  <rect x="50" y="430" width="170" height="90" fill="#F5F4FB" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="135" y="466" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Manage_Accounts</text>
+  <text x="135" y="486" text-anchor="middle" font-size="10.5" fill="#3C3489">Verifies Login Credentials</text>
+
+  <rect x="250" y="430" width="170" height="90" fill="#F5F4FB" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="335" y="462" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Capture_Handwriting_</text>
+  <text x="335" y="478" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Sample</text>
+  <text x="335" y="498" text-anchor="middle" font-size="10.5" fill="#3C3489">Accesses Student Submission</text>
+
+  <rect x="670" y="430" width="170" height="90" fill="#F5F4FB" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="755" y="462" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Extract_Features</text>
+  <text x="755" y="480" text-anchor="middle" font-size="10.5" fill="#3C3489">MobileNetV3 Backbone</text>
+  <text x="755" y="496" text-anchor="middle" font-size="10.5" fill="#3C3489">Feature Extraction</text>
+
+  <rect x="870" y="430" width="170" height="90" fill="#F5F4FB" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="955" y="462" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Classify_Dyslexia_</text>
+  <text x="955" y="478" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Risk</text>
+  <text x="955" y="498" text-anchor="middle" font-size="10" fill="#3C3489">Applies Pre-trained Classifier</text>
+
+  <rect x="1070" y="430" width="180" height="90" fill="#F5F4FB" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="1160" y="462" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Generate_XAI_</text>
+  <text x="1160" y="478" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Explanation</text>
+  <text x="1160" y="498" text-anchor="middle" font-size="10" fill="#3C3489">Produces Grad-CAM Heatmap</text>
+
+  <rect x="1465" y="430" width="170" height="90" fill="#F5F4FB" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="1550" y="462" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Compile_Detection_</text>
+  <text x="1550" y="478" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Result</text>
+  <text x="1550" y="498" text-anchor="middle" font-size="10.5" fill="#3C3489">Merges Score + Heatmap into Report</text>
+
+  <rect x="1720" y="430" width="170" height="90" fill="#F5F4FB" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="1805" y="466" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Store_Report</text>
+  <text x="1805" y="486" text-anchor="middle" font-size="10.5" fill="#3C3489">Writes to Database</text>
+
+  <!-- Preprocess_Data leaf (child of Capture_Handwriting_Sample) + loop -->
+  <line x1="335" y1="520" x2="335" y2="608" stroke="#4a4a47" stroke-width="1.8"/>
+  <rect x="250" y="610" width="170" height="90" fill="#F5F4FB" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="335" y="646" text-anchor="middle" font-size="12.5" font-weight="700" fill="#26215C">Preprocess_Data</text>
+  <text x="335" y="666" text-anchor="middle" font-size="10.5" fill="#3C3489">Cleans &amp; Validates Sample</text>
+
+  <line x1="310" y1="602" x2="310" y2="527" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="240" y="568" text-anchor="end" font-size="10" fill="#1a1a1a">Preprocessed Sample</text>
+
+  <line x1="362" y1="527" x2="362" y2="602" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="370" y="568" text-anchor="start" font-size="10" fill="#1a1a1a">Raw Sample</text>
+
+  <!-- loop symbol: Capture_Sample repeatedly invokes Preprocess_Data until sample is valid -->
+  <path d="M420 525 C 465 525 465 605 420 605" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#arrowHead)"/>
+  <text x="472" y="568" text-anchor="start" font-size="10" fill="#1a1a1a" transform="rotate(90 472 568)">repeat until valid</text>
+
+  <!-- ============================================================= -->
+  <!-- PHYSICAL DATA STORES -->
+  <!-- ============================================================= -->
+  <!-- D5 Pretrained Model Weights, read by Extract_Features, Classify_Dyslexia_Risk, and Generate_XAI_Explanation -->
+  <rect x="655" y="610" width="200" height="70" rx="26" ry="26" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="755" y="638" text-anchor="middle" font-size="11.5" font-weight="700" fill="#085041">Pretrained MobileNetV3</text>
+  <text x="755" y="654" text-anchor="middle" font-size="11.5" font-weight="700" fill="#085041">Weights</text>
+  <text x="755" y="670" text-anchor="middle" font-size="10" fill="#04342C">(D5)</text>
+
+  <line x1="785" y1="608" x2="785" y2="524" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="793" y="570" text-anchor="start" font-size="10" fill="#1a1a1a">Load Weights</text>
+
+  <line x1="920" y1="612" x2="978" y2="524" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="915" y="600" text-anchor="end" font-size="10" fill="#1a1a1a">Load Weights</text>
+
+  <line x1="835" y1="614" x2="1130" y2="524" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="1000" y="600" text-anchor="start" font-size="10" fill="#1a1a1a">Load Weights (Grad-CAM)</text>
+
+  <!-- D4 Reports Database, written by Store_Report -->
+  <rect x="1720" y="610" width="170" height="80" rx="26" ry="26" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="1805" y="645" text-anchor="middle" font-size="11.5" font-weight="700" fill="#085041">Reports Database</text>
+  <text x="1805" y="662" text-anchor="middle" font-size="10" fill="#04342C">(D4)</text>
+
+  <line x1="1805" y1="522" x2="1805" y2="608" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="1815" y="568" text-anchor="start" font-size="10" fill="#1a1a1a">Write Report</text>
+
+  <!-- ============================================================= -->
+  <!-- LEGEND -->
+  <!-- ============================================================= -->
+  <rect x="40" y="800" width="1870" height="330" fill="#FAFAF8" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="60" y="830" font-size="15" font-weight="700" fill="#2C2C2A">Legend</text>
+
+  <!-- Column 1 -->
+  <rect x="60" y="850" width="46" height="30" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="118" y="870" font-size="12.5" fill="#2C2C2A">Control / functional module (rectangle, sharp corners)</text>
+
+  <polygon points="83,905 106,925 83,945 60,925" fill="#FFF3D6" stroke="#B7791E" stroke-width="1.5"/>
+  <text x="118" y="930" font-size="12.5" fill="#2C2C2A">Conditional call (diamond on the connecting line)</text>
+
+  <rect x="60" y="965" width="46" height="30" rx="15" ry="15" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="118" y="985" font-size="12.5" fill="#2C2C2A">Physical data store / file (rectangle, curved edges)</text>
+
+  <line x1="60" y1="1030" x2="106" y2="1030" stroke="#4a4a47" stroke-width="1.8"/>
+  <text x="118" y="1034" font-size="12.5" fill="#2C2C2A">Unconditional call (plain solid line, no arrowhead)</text>
+
+  <!-- Column 2 -->
+  <line x1="820" y1="860" x2="880" y2="860" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleHollow)" marker-end="url(#arrowHead)"/>
+  <text x="892" y="864" font-size="12.5" fill="#2C2C2A">Data couple — black arrow, hollow (open) circle tail</text>
+
+  <line x1="820" y1="920" x2="880" y2="920" stroke="#1a1a1a" stroke-width="1.3"
+        marker-start="url(#circleFilled)" marker-end="url(#arrowHead)"/>
+  <text x="892" y="924" font-size="12.5" fill="#2C2C2A">Control couple — black arrow, filled (solid) circle tail</text>
+
+  <path d="M820 970 C 855 970 855 1000 820 1000" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#arrowHead)"/>
+  <text x="892" y="988" font-size="12.5" fill="#2C2C2A">Loop — curved arrow, indicates repeated/iterative call</text>
+
+  <text x="60" y="1075" font-size="11.5" fill="#5F5E5A">Note: this structure chart is derived from the corresponding Level-0/1/2 data-flow diagrams —</text>
+  <text x="60" y="1094" font-size="11.5" fill="#5F5E5A">each DFD process (1.0–4.0) maps to a module, and each data store (D1–D5) maps to a physical file/database.</text>
+  <text x="60" y="1113" font-size="11.5" fill="#5F5E5A">Model uses a pre-trained MobileNetV3 backbone (transfer learning) with a Grad-CAM XAI module for explainability.</text>
+
+</svg>
