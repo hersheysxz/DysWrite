@@ -74,5 +74,10 @@ See [QUALITY_AUDIT.md](DysWrite-prescreen/QUALITY_AUDIT.md) for detailed analysi
 - **Understanding the code quality:** See [DysWrite-prescreen/QUALITY_AUDIT.md](DysWrite-prescreen/QUALITY_AUDIT.md)
 
 ---
-
+*RESEARCHERS*
+*Regacho, Rachel A.*
+*Velasquez, Regine J.*
+*Garcia, Angeline G.*
+*Lachica, John Albert C.*
+*Bicerra, Gerrald A.*
 *DysWrite Pre-Screening Engine | DMMMSU-SLUC College of Computer Science | 2026*
