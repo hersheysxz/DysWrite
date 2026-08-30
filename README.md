@@ -74,9 +74,16 @@ See [QUALITY_AUDIT.md](DysWrite-prescreen/QUALITY_AUDIT.md) for detailed analysi
 - **Understanding the code quality:** See [DysWrite-prescreen/QUALITY_AUDIT.md](DysWrite-prescreen/QUALITY_AUDIT.md)
 
 ---
-*Rachel A. Regacho,*
-*Regine J. Velasquez,*
-*Angeline G. Garcia,*
-*John Albert C. Lachica,*
-*Gerrald A. Bicera*
-*DysWrite Pre-Screening Engine | DMMMSU-SLUC College of Computer Science | 2026*
+## Researchers
+
+| Name | Role |
+|---|---|
+| Gerrald A. Bicera | Researcher |
+| Angeline G. Garcia | Researcher |
+| John Albert C. Lachica | Researcher |
+| Regine J. Velasquez | Researcher |
+| Rachel | Researcher |
+
+**Adviser:** Prof. Belinda D. Celestial, PhDCS
+
+**Institution:** DMMMSU – South La Union Campus, College of Computer Science
