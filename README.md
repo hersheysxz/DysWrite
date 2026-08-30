@@ -78,11 +78,12 @@ See [QUALITY_AUDIT.md](DysWrite-prescreen/QUALITY_AUDIT.md) for detailed analysi
 
 | Name | Role |
 |---|---|
+| Rachel A. Regacho | Researcher |
 | Gerrald A. Bicera | Researcher |
 | Angeline G. Garcia | Researcher |
 | John Albert C. Lachica | Researcher |
 | Regine J. Velasquez | Researcher |
-| Rachel | Researcher |
+
 
 **Adviser:** Prof. Belinda D. Celestial, PhDCS
 
